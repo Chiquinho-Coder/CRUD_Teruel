@@ -1,0 +1,26 @@
+table{
+    width: 78%;
+    background-color:background;
+    border: solid #000000 2px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 27px;
+    padding: 6px;
+}
+
+*{
+    margin: 0 auto
+}
+
+th {
+    background-color:blue;
+    color: white;
+    text-align: left;
+    padding: 5px 10px
+}
+
+td {
+    border: solid #ededed;
+    padding: 5px 10px
+}
+

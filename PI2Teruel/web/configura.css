@@ -1,9 +1,331 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 20 de set. de 2023, 20:08:02
-    Author     : pedro
-*/
+* {
+    margin: 0 auto
+}
 
+header {
+    width:90%;
+    background-color: #a6fffc;
+    padding:10px
+}
+
+nav{
+    width:90%;
+    background-color:#1c54fc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 23px;
+    border-right: 1px solid white;
+    padding: 0 80px;
+    margin: 0;
+}
+
+nav a:hover{
+    color:#ffd60a;
+}
+
+main{
+    width: 90%;
+    height: 850px;
+    padding: 10px;
+    background-color: #ededed
+}
+
+footer{
+    width: 90%;
+    padding: 10px;
+    background-color: #1c54fc;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+iframe{
+    border:0px;
+    width:100%;
+    height: 850px;
+}
+
+h1 a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.c1 {
+        text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.c1 p {
+    margin: 8px;
+}
+p.gargamel {
+    display: flex;
+}
+
+
+p.gargameltxt{
+    font-size: 20px;
+    padding: 10px 44px;
+}
+
+
+
+
+/*Formulario Estilo Cadastro smurfs*/
+form.cadpro, form[action="alterar_produtos.jsp"] {
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    border: 7px solid #15c4ff;
+    background: ghostwhite;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+form.cadpro p, form[action="alterar_produtos.jsp"] p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 11px;
+}
+
+form.cadpro label, form[action="alterar_produtos.jsp"] label {
+    margin: 0px;
+}S
+
+form.cadpro input, form[action="alterar_produtos.jsp"] input {
+    width: 182px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+form.cadpro input[type="submit"], form[action="alterar_produtos.jsp"] input[type="submit"] {
+    padding: 10px;
+    border-radius: 10px;
+    background: deepskyblue;
+    color: #fff;
+    font-weight: 900;
+    border: 1px solid white;
+    transition: 0.4s;
+}
+
+form.cadpro input[type="submit"]:hover, form[action="alterar_produtos.jsp"] input[type="submit"]:hover {
+    background: white;
+    color: deepskyblue;
+    border: 1px solid deepskyblue;
+}
+
+p.botao input, form[action="alterar_produtos.jsp"] input[type="submit"]{
+    margin: 25px auto 0 !important;
+    justify-content: center;
+}
+
+body.wpp, body.wppCadpro {
+    padding-top: 70px;
+    background-image: url("images/wallpaper.jpeg");
+    background-size: cover;
+}
+/*Fim do Formulario Estilo Cadastro smurfs*/
+
+/*Apresentacaoo do site*/
+.apresenta h1 {
+    margin: 10px 0;
+}
+
+.apresenta p {
+    margin: 15px 0;
+}
+.apresenta h1 {
+    margin: 10px 0;
+}
+
+.apresenta p {
+    margin: 15px 0;
+}
+
+/*Fim Apresentacao do site*/
+
+a[href="destaques.html"] {
+    border: none;
+}
+
+/*Cadastro sucesso*/
+.save, .sucesso {
+    font-size: 28px;
+    padding: 10px 10px;
+    margin: 98px auto;
+    background: #d9fffe;
+    border: 2px solid #00255a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    font-weight: 600;
+    color: #00324b;
+}
+
+/*Fim Cadastro sucesso*/
+
+
+
+/*Forms :)*/
+
+form.textoDefault {
+    border: 2px solid #15c4ff;
+    padding: 19px;
+    background: ghostwhite;
+    width: fit-content;
+    border-radius: 1000px;
+}
+
+form.textoDefault label {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+form.textoDefault label {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+
+form.textoDefault label {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+form.textoDefault input[type="submit"] {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 14px;
+    background: #ffe0e0;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+form.textoDefault input[type="submit"]:hover {
+    padding: 8px 12px;
+    background: #f54343;
+    border: 2px solid #ffff6a;
+    color: #ffff6a;
+}
+
+form.textoDefault input.naoExcloi {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 14px;
+    background: #d8f9ff;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+form.textoDefault input.naoExcloi:hover {
+    padding: 8px 12px;
+    background: #a3ff86;
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+form.textoDefault input#cod {
+    height: 21px;
+    width: 131px;
+    margin-top: 12px;
+}
+/*Fim do Forms :)*/
+
+
+.teste{
+    overflow:hidden;
+}
+
+/*Destaques*/
+.incrivel {
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    font-size: 40px;
+}
+
+.smurfStars{
+    padding: 9px;
+    margin: 10px;
+    font-size: 21px;
+}
+
+/*<style>
+            * {
+                margin: 0 auto
+            }
+            header{
+                width: 100%;
+                background-color:#a6fffc;
+                padding: 30px;
+            }
+
+            nav{
+                width: 100%;
+                background-color:#1c54fc;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+            }
+
+            nav a{
+                color: white;
+                text-decoration: none;
+            }
+            nav a:hover{
+                color: #ffd60a;
+            }
+
+            main{
+                width:100%;
+                height:700px;
+                padding:70px;
+                background-color: #ededed
+            }
+            footer{
+                width:100%;
+                padding:15px;
+                background-color:#1c54fc;
+                display: flex;
+                align-items: center;
+            }
+            footer p{
+                color: white;
+            }
+            iframe {
+
+                border:10px;
+                width:100%;
+                height: 760px;
+            }
+            h1 a{
+                color: black;
+                text-decoration: none;
+            }
+        </style>*/

@@ -2,29 +2,36 @@
 <html>
     <head>
         <title>Cadastro de Smurfs</title>
-        <meta charset="UTF-8">
+        <meta charset="ISO-8859-1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="configura.css"/>
     </head>
-    <body>
-        <form method="post" action="salvarSmurfs.jsp">
+    <body class="wppCadpro">
+        <form class="cadpro" method="post" action="salvarSmurfs.jsp">
             <p>
-                <label for="codigo">Código:</label>
-                <input type="text" name="codigo" id="codigo">
+                <label for="codigo">C�digo:</label>
+                <input type="number" name="codigo" id="codigo">
             </p>
             <p>
                 <label for="nome">Nome do Smurf:</label>
                 <input type="text" name="nome" id="nome" size="40" maxlength="40">
             </p>
             <p>
-                <label for="marca">Marca/tipo:</label>
-                <input type="text" name="marca" id="marca" maxlength="40">
+                <label for="tipo">Marca/tipo:</label>
+                <input type="text" name="tipo" id="tipo" maxlength="40">
             </p>
+            
             <p>
-                <label for="preco">Preço:</label>
-                <input type="text" name="preco" id="preco">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" step="1" name="quantidade" id="quantidade">
             </p>
+             <p>
+                <label for="local">Local:</label>
+                <input type="text" name="local" id="local" maxlength="40">
+            </p>
+            
        
-            <p>
+            <p class="botao">
                 <input type="submit" value="Salvar">
             </p>
         </form>
